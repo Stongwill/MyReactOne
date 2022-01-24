@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  background-color: rgb(32, 57, 167);
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 80px;
+
+}
+
+.logo {
+  width: 110px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 4px;
+  padding: 9px 44px 9px 15px;
+  max-height: 20px;
+
+  p{
+    cursor: pointer;
+  }
+}
+.search__item {
+  border: 0;
+  font-size: 17px;
+  width: 550px;
+  margin-left: 10px;
+  outline: none;
+}
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart__img {
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.cart__title {
+  color: rgba(255, 255, 255, 0.836);
+  font-size: 14px;
+}
+
+.cart__orders {
+  width: 30px;
+  margin-left: 30px;
+}
+
+.phone__title{
+  margin-left: 30px;
+}
+
+.card__item {
+  max-width: 235px;
+  min-height: 290px;
+  display:inline-block;
+  text-align: center;
+  margin: 10px 30px;
+  border: 1px solid #6c6d6f;
+  border-radius: 3px;
+  padding: 12px 7px;
+  transition: box-shadow 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+  }
+}
+
+.phone__add {
+  background: rgb(143, 180, 6);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.phone__price-add {
+  display: flex;
+  justify-content: space-around;
+}
+.phone__txt{
+  font-size: 16px;
+}
+.phone__price{
+  font-size: 15px;
+  b{
+    margin-left: 5px;
+  }
+}
+
+.phone__search{
+  margin-left: 30px;
+  color: rgba(15, 61, 99, 0.849);
+}
+
+
+.cart__item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  border-bottom: 1px solid #6c6d6f;
+  margin-bottom: 30px;
+}
+.cart__price{
+  font-size: 16px;
+  b{
+    color:firebrick;
+  }
+}
+.pop{
+  text-align: center;
+  color: rgb(26, 7, 112);
+}
+
+.cart__remove{
+  border-radius: 10px;
+  color: #270683b4;
+  cursor: pointer;
+}
+
+.cart__null{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart__text-null{
+  font-size: 17px;
+}
+.cart__txt{
+  font-size: 16px;
+  max-width: 230px;
+  color: #07020eef;
+}
+.cart__redirect{
+  background: chocolate;
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 45px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.cart__sum{
+  float: right;
+  border: 1px solid #6c6d6ffa;
+  border-radius: 15px;
+  padding: 15px 15px;
+  margin: 0 85px 30px 0;
+  text-align: center;
+}
+.cart__sum-item{
+  font-size: 18px;
+}
+.cart__issue{
+  background: rgba(0, 128, 0, 0.89);
+}
